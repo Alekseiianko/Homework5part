@@ -35,6 +35,21 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intentNotes);
             Toast.makeText(MainActivity.this, "Открыть записную книжку", Toast.LENGTH_LONG).show();
             return true;
+        } else if (id == R.id.calendar_open) {
+            Intent intentCalendar = new Intent(this, CalendarActivity.class);
+            startActivity(intentCalendar);
+            Toast.makeText(MainActivity.this, "Открыть планировщик задач", Toast.LENGTH_LONG).show();
+            return true;
+        } else if (id == R.id.adress_open) {
+            Intent intentAdress = new Intent(this, AdressActivity.class);
+            startActivity(intentAdress);
+            Toast.makeText(MainActivity.this, "Узнать адрес", Toast.LENGTH_LONG).show();
+            return true;
+        } else if (id == R.id.pay_open) {
+            Intent intentPay = new Intent(this, PayActivity.class);
+            startActivity(intentPay);
+            Toast.makeText(MainActivity.this, "Оплатить счет", Toast.LENGTH_LONG).show();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

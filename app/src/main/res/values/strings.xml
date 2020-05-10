@@ -2,4 +2,34 @@
     <string name="app_name">Homework5part2</string>
     <string name="settings">Settings</string>
     <string name="contacts">Записная книжка</string>
+    <string name="calendar">Планирование задач</string>
+    <string name="end">Дата-время окончания задачи:</string>
+    <string name="start">Дата-время старта задачи:</string>
+    <string name="showAdress">Показать адрес</string>
+    <string name="Adress">Узнать адрес</string>
+    <string name="Pay">Оплатить счет</string>
+    <string name="checkBox1">С банковской карты</string>
+    <string name="checkBox2">С мобильного телефона</string>
+    <string name="checkBox3">Наличными по адресу</string>
+
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
 </resources>
