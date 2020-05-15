@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PayActivity">
+
+    <EditText
+        android:id="@+id/inputMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ввод денег"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/bankCardChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox1" />
+
+    <CheckBox
+        android:id="@+id/mobilePhoneChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/cashAddressChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox3" />
+
+    <EditText
+        android:id="@+id/inputInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Информация о платеже" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+
+</LinearLayout>
